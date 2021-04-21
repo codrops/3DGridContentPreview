@@ -2,7 +2,7 @@
   "name": "3DGridContentPreview",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "dist/index.html",
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",

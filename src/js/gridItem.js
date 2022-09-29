@@ -44,7 +44,7 @@ export class GridItem {
     layout() {
         const rect = this.DOM.el.getBoundingClientRect();
         
-        // check if the element is position on the left/top side of the viewport 
+        // check if the element is positioned on the left/top side of the viewport 
         this.isLeft = rect.left+rect.width/2 < winsize.width/2;
         this.isTop = rect.top+rect.height/2 < winsize.height/2;
 

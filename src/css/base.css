@@ -551,6 +551,6 @@ a:focus {
 		font-size: 0.857rem;
 		text-transform: uppercase;
 		font-weight: 500;
-		fill: var(--cursor-text);
+		color: var(--cursor-text);
 	}
 }
